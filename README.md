@@ -3,7 +3,7 @@ Google Apps Script automation for synchronizing UWP work assignments to employee
 
 ## Overview
 
-This project automates the synchronization of employee work assignments from the Office Performance Commitment and Review (OPCR) to individual Individual Performance Commitment and Review (IPCR) spreadsheets using Google Apps Script.
+This project automates the synchronization of employee work assignments from the Unit Work Plan (UWP) to individual Individual Performance Commitment and Review (IPCR) spreadsheets using Google Apps Script.
 
 The solution allows one administrator to update all employee IPCR files from a single script, eliminating the need for employees to manually compare and update their assignments.
 
@@ -13,7 +13,7 @@ The solution allows one administrator to update all employee IPCR files from a s
 
 Previously:
 
-- Around 40 employees manually checked the OPCR every six months.
+- Around 40 employees manually checked the UWP every six months.
 - Employees compared their assigned work one by one.
 - Work assignments had to be copied manually into each IPCR.
 - The process took several weeks across the office.
@@ -24,7 +24,7 @@ Previously:
 
 The automation:
 
-- Reads the master OPCR spreadsheet.
+- Reads the master UWP spreadsheet.
 - Finds each employee's assigned work.
 - Opens each employee's IPCR spreadsheet.
 - Clears outdated assignments.
